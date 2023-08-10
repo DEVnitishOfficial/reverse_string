@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 50px;
+}
+body{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right, green,yellow);
+}
+input{
+    font-size: 30px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: yellow;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-left: 13rem;
+    background-color: pink;
+    border: none;
+}
+button:hover{
+    background-color: green;
+}
+#result{
+    margin-top: 3rem;
+    margin-left: 13rem;
+}
